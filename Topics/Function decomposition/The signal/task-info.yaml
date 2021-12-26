@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Deeply nested loops;
+- text: The repeated pattern of code;
+- text: Functions that solve a lot of problems at a time;
+- text: Long control flow statements;
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.go
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17508#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sun, 26 Dec 2021 20:37:46 UTC
+record: -1
+selected_options:
+- 0
+- 1
+- 2
+- 3

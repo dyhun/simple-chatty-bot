@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: new p *string
+- text: '&amp;p := new(string)'
+- text: var p = new(string)
+- text: p := new(string)
+- text: new p = *string
+- text: var p *string
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.go
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15465#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sun, 26 Dec 2021 20:42:24 UTC
+record: -1
+selected_options:
+- 2
+- 3

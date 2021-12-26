@@ -1,0 +1,13 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: "// Fix code below        \nconst (\n    1 = Up\n    2 = Down\n    3 = Left\n\
+    \    4 = Bottom // Hmmm\n)"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14475#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 23 Dec 2021 23:53:21 UTC
+record: -1

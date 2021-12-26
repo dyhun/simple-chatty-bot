@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: It is impossible to change the value of a variable declared with the keyword
+    <code>var</code>.
+- text: Every variable has a name and a default value.
+- text: It is impossible to assign a new value to one variable using :=
+- text: It is possible to assign a new value to a variable declared with the keyword
+    <code>сonst</code>.
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.go
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14470#comment
+status: Failed
+feedback:
+  message: Answer choices will be shuffled next time.
+  time: Sun, 26 Dec 2021 20:43:41 UTC
+record: -1
+selected_options:
+- 1

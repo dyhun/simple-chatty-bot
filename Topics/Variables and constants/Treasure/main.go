@@ -1,0 +1,1 @@
+var chest string = "gold"
